@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b86eefc0"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/groupID"
+        android:text="@string/group_id"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/groupName"
+        android:text="@string/group_name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/gClass"
+        android:layout_below="@id/groupName"
+        android:text="@string/Class"
+        android:padding="1dp"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/gYear"
+        android:layout_below="@id/groupName"
+        android:text="@string/year"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/gClass"
+        android:paddingTop="1dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">DCSA-KUK</string>
+    <string name="assign">Assign</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+    <string name="verify">Verify</string>
+    <string name="Send">Send</string>
+    <string name="next">Next</string>
+    <string name="msgDate">10:10 AM</string>
+    <string name="show_groups">Show Groups</string>
+
+
+    <string name="otp_admin_notice_message">
+        Your Details has been sent to ADMINISTER.Your Mobile Notice Board will be active within 24-48 hours after approval.
+    </string>
+    <string name="otp_teacher_notice_message">
+        Your Details has been sent to TEACHER.Your Mobile Notice Board will be active within 24-48 hours after approval.
+    </string>
+    <string name="notice_board_title">( DCSA - KUK : Mobile Notice Board )</string>
+    <string name="notice_board_title2">
+        Welcome to the Mobile world of\n DCSA-KUK, Kurukshetra.\n This app connects to you directly \nto the staff members of DCSA-KUK. \nYou will be up to date with all the\n latest NEWS or Information\n provided by DCSA-KUK.
+    </string>
+    <string name="notice_board_title3">
+        CLICK THE BELOW BUTTON \n TO START YOUR JOURNEY WITH \n DCSA-KUK : MOBILE NOTICE BOARD.
+    </string>
+    <string name="author_name">By - SHILPA GOEL | SHIVIKA ARORA | PRAVEEN KUMAR</string>
+    <string name="author_company">""MDA ITHub | TECHNOLOGIES"</string>
+    <string name="author_url">www.mdaithub.com</string>
+    <string name="notice_board_start">Start</string>
+
+    <string name="hint_login_text">Enter Mobile / User Name</string>
+    <string name="hint_login_password">Enter Password</string>
+    <string name="hint_emp_code">Enter Employee Code</string>
+    <string name="hint_emp_designation">Enter Designation</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_roll">Enter Roll No.</string>
+    <string name="hint_otp_code">Enter OTP Code</string>
+    <string name="hint_new_password">Enter New Password</string>
+    <string name="hint_old_password">Enter Old Password</string>
+    <string name="hint_msg_type">Type Msg Here&#8230;</string>
+
+
+    <string name="create_group">Create Group</string>
+    <string name="manage_group">Manage Group</string>
+    <string name="manage_emp">Manage Employee</string>
+    <string name="verify_emp">Verify Employee</string>
+    <string name="change_password">Change Password</string>
+    <string name="manage_student">Manage Student</string>
+    <string name="verify_student">Verify Student</string>
+    <string name="my_group">My Group</string>
+    <string name="designation">Designation</string>
+    <string name="code">Code</string>
+    <string name="Mobile_No">Mobile No.</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="emp_id">Employee Id</string>
+    <string name="student_id">Student Id</string>
+    <string name="student_name">Student Name</string>
+    <string name="group_id">Group Id</string>
+    <string name="group_name">Group Name</string>
+    <string name="Class">Class</string>
+    <string name="year">Year</string>
+    <string name="roll_no">Roll No.</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Show_Verify_Teachers"
+    android:background="@drawable/layout_list_bg"
+    android:id="@+id/layout1">
+
+    <Button
+        android:onClick="AssignToTeacher"
+        android:id="@+id/assignToTeacher"
+        android:text="@string/assign"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/NiceButton"/>
+
+    <Button
+        android:onClick="Cancel"
+        android:id="@+id/cancel"
+        android:text="@string/cancel"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/assignToTeacher"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/NiceButton"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/assignToTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

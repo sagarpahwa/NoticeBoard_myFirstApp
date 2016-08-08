@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b86eefc0"
+    android:padding="2dip">
+
+    <CheckBox
+        android:id="@+id/checkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/emp_name"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="1dp"/>
+
+    <TextView
+        android:id="@+id/empID"
+        android:text="@string/emp_id"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empMobileNo"
+        android:layout_below="@id/checkName"
+        android:text="@string/Mobile_No"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:paddingLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empCode"
+        android:text="@string/code"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empDesignation"
+        android:layout_below="@id/empCode"
+        android:text="@string/designation"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:paddingTop="6dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

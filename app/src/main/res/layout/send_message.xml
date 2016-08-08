@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c4bbbb"
+    tools:context="com.example.acer.admin.Send_Message">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_above="@+id/messageCompose"
+        android:background="@null"
+        android:divider="@null"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+    </ListView>
+
+    <!--<ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/messageCompose"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@+id/sendButtonLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/messageback"
+            android:background="@color/bg_msg_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_alignParentBottom="true"
+            android:src="@android:drawable/ic_menu_camera"
+            android:background="@color/bg_msg_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/sendMessageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_msg_input"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_toRightOf="@id/camera"
+            android:hint="@string/hint_msg_type"/>
+        <ImageView
+            android:id="@+id/sendImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/speakNow"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/sendMessageText"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sendButtonLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sendMessageButton"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/send_circle_button"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

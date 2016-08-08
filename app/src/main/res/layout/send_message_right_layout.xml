@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="80dp">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_msg_you">
+
+        <TextView
+            android:text="Teacher Name"
+            android:id="@+id/lblMsgFrom"
+            android:layout_toLeftOf="@id/lblDesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:textStyle="normal"/>
+        <TextView
+            android:text="Designation"
+            android:id="@+id/lblDesignation"
+            android:layout_toLeftOf="@id/lblGroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:text="Group Name"
+            android:id="@+id/lblGroupName"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:textStyle="normal"
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="end"/>
+
+        <TextView
+            android:text="Msg Id"
+            android:id="@+id/lblMsgId"
+            android:visibility="gone"
+            android:layout_below="@id/lblDesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:gravity="end"/>
+
+        <TextView
+            android:text="This messag"
+            android:id="@+id/txtMsg"
+            android:layout_below="@id/lblGroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:typeface="normal"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/msgDate"
+            android:text="@string/msgDate"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:paddingRight="10dp"
+            android:layout_below="@id/txtMsg"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

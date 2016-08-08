@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b86eefc0"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/studentID"
+        android:text="@string/student_id"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:text="@string/student_name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentMobileNo"
+        android:layout_below="@id/studentName"
+        android:text="@string/Mobile_No"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentRollNo"
+        android:text="@string/roll_no"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentClass"
+        android:layout_below="@id/studentRollNo"
+        android:text="@string/Class"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_toLeftOf="@+id/studentYear"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentYear"
+        android:layout_below="@id/studentRollNo"
+        android:layout_alignParentRight="true"
+        android:text="@string/year"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
